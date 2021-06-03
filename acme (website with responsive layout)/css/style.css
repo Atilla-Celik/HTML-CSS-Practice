@@ -17,6 +17,11 @@ body{
     overflow: hidden;
 }
 
+ul{
+    margin:0;
+    padding:0;
+}
+
 /*Header*/
 header{
     background-color: #35424a;
@@ -33,13 +38,58 @@ header a{
     font-size: 16px;
 }
 
-header ul{
-    margin:0;
-    padding:0;
-}
-
 header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ccc;
+    font-weigth:bold;
+}
+
+/* Showcase*/
+
+#showcase{
+    min-height: 400px;
+    background:url("../img/unsplash-computer.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #aaa;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background-color:#35424a;
+}
+
